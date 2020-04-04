@@ -20,7 +20,7 @@ section {
     margin-bottom: 5%;
     padding : 0;
     height: 175px;
-    background-color: #999999;
+    background-color: lightgray;
     color: black;
 }
 
@@ -47,7 +47,7 @@ p {
 }
 
 .title {
-    border: 2px solid black;
+    border: 1px solid black;
     border-top: 0;
     border-right: 0;
     width: 40%;
@@ -68,7 +68,7 @@ p {
     }
 
     .col-lg-4 {
-        width: 32%;
+        width: 32.33%;
     }
 }
 
