@@ -64,7 +64,7 @@ h2 {
     padding-top: -20px;
 }
 
-            /* Small devices */
+            /*  Small devices  */
 @media (min-width: 281px) and (max-width: 767px) {
     .navbar-brand {
         font-size: 1.3em;
