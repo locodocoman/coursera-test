@@ -1,0 +1,90 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    background-color: #33363b;
+}
+
+#nav-header {
+    background-color: #27282c;
+    border-radius: 0;
+    border: 0;
+}
+.navbar-brand {
+    text-align: center;
+    padding-left: 20px;
+
+
+}
+h1 {
+    margin-top: -10px;
+    color: #43a381 ;
+    font-size: 1.8em;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 1px 1px 1px #222;
+}
+h2 {
+    color: orange;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.row {
+    background-color: #398ac1;
+    border-radius: 15px;
+    margin: 0px;
+    margin-bottom: 10px;
+    width: 100%;
+    color: #c0dde5;
+    font-size: 1.2em;
+    font-weight: 600;
+    font-style: italic;
+}
+.row div > h3 {
+    margin-bottom: 30px;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.navbar-inverse .navbar-collapse {
+    border-color:#000;
+}
+.navbar-nav {
+	margin: 0px -15px;
+}
+#nav-list a {
+    background-color: #43a381;
+    color: #27282c;
+    font-weight: 600;
+    font-size: 1.2em;
+    text-align: center;
+}
+#nav-list a:hover {
+    background-color: #E7E7E7;
+}
+.navbar-collapse .collapse {
+    padding-top: -20px;
+}
+
+            /* Small devices */
+@media (min-width: 281px) and (max-width: 767px) {
+    .navbar-brand {
+        font-size: 1.3em;
+    }
+    #main-content {
+        width: 90%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+li hr {
+    margin: 0 auto;
+    border-color: #000;
+}
+
+
+            /* XSmall devices */
+@media (max-width: 280px) {
+    .navbar-brand {
+        font-size: 0.9em;
+        padding-left: 25px;
+    }
+}
